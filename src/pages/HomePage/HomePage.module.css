@@ -1,0 +1,29 @@
+.root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+.header {
+    width: 100%;
+}
+
+.pronunciations,
+.callWithUs {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+}
