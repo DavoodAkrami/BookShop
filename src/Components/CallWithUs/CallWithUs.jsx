@@ -1,5 +1,5 @@
 import React from 'react';
-import OwnerInfo  from '../../data/ownerInfo';
+import OwnerInfo  from '../../data/OwnerInfo';
 import styles from './CallWithUs.module.css';
 
 const CallWithUs = () => {
