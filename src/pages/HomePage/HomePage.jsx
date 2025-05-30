@@ -4,6 +4,7 @@ import Header from '../../layouts/header/header';
 import Pronunciations from '../../Components/Pronunciations/Pronunciations';
 import CallWithUs from '../../Components/CallWithUs/CallWithUs';
 import Footer from '../../layouts/Footer/Footer';
+import PDFViewer from '../../Components/PDFViewer/PDFViewer';
 
 const HomePage = () => {
     const [selected, setSelected] = useState(0);
@@ -16,6 +17,11 @@ const HomePage = () => {
                 {selected === 1 && (
                     <div className={styles.pronunciations}>
                         <Pronunciations />
+                    </div>
+                )}
+                {selected === 2 && (
+                    <div className={styles.callWithUs}>
+                        <PDFViewer />
                     </div>
                 )}
                 {selected === 3 && (

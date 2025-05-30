@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './pronunciations.module.css';
-import Header from '../../layouts/header/header';
+import styles from './Pronunciations.module.css';
 import books from '../../data/Books.js';
 
 const Pronunciations = () => {
