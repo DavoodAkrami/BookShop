@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
 import OwnerInfo from '../../data/OwnerInfo';
-import Books from '../../data/books';
+
 
 const Footer = () => {
     return (
